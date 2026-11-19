@@ -1,6 +1,7 @@
 streamlit
-scikit-learn
-nltk
-joblib
-pandas
-numpy
+transformers
+shap
+# CPU-only PyTorch is much smaller than the default build, which helps on free hosting
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+matplotlib
