@@ -1,0 +1,7 @@
+# The trained model is large (hundreds of MB). Do not commit it: GitHub rejects files over 100 MB.
+# Host it on Hugging Face Hub instead and set MODEL_PATH.
+fake_news_model/
+checkpoints/
+*.zip
+__pycache__/
+venv/
